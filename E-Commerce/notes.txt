@@ -1,0 +1,48 @@
+Suppose you want to add 2 images side by side of 580 px then we should use min-width
+Once we add an another lement then the size will get automatically adjusted to 580px
+
+
+button.normal{
+
+} 
+we can use this in the css and then in out html we can add the class as normal for buttons, this will only work for button since we are 
+using button.normal
+
+
+We can add multiple class name as well
+<div class="banner-box banner-box-2"> --> here banner-box and banner-box-2 are 2 different class name
+and in the style sheet we can simply use this other class name to target the element 
+
+#sm-banner .banner-box-2{
+
+}
+
+
+There is an attribute called white-space = nowrap which made the the Sign Up text to show up in a single line.
+
+
+We had to use #pageheader.blog-header to change the background image, using #pageheader .blog-header was not able to change the background 
+image
+
+
+Suppose we have 3 elements in display flex and we want to move the third element to some other place
+then we should mark the 3rd element as position=absolute and use relative on in parent
+To push an element behing other elemet we should use z-index = -1, it should be negative any negative value is fine.
+And z-index should be positive to keep it on the top of other element
+
+#cart table td:nth-child(1){
+    width: 100px;
+}
+we can use the nth-child pseudo code to target just the nth child of the parent element
+
+
+
+
+
+
+
+
+
+
+
+
